@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Solutions - Al Katef IT Solutions</title>
+    <meta
+      name="description"
+      content="We build the future with innovative IT solutions. Offering web development, IT consulting, cloud solutions, and more."
+    />
+
+    <!-- bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body
+    class="bg-gray-100 min-h-screen flex flex-col items-center justify-start"
+  >
+
+   <!-- top section -->
+
+   <div class="pagesection-top">
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-page">
+      <div class="container-fluid">
+        <!-- Logo + Services -->
+        <div class="d-flex align-items-center me-3">
+          <a
+            class="navbar-brand d-flex align-items-center me-3"
+            href="index.html"
+          >
+            <img
+              src="images/logo/logo_1.png"
+              alt="IT Solutions Logo"
+              class="rounded"
+              height="40"
+            />
+          </a>
+
+          <!-- Services Dropdown -->
+          <div class="nav-item dropdown me-3">
+            <a
+              class="btn dropdown-toggle text-white px-3 py-2 rounded"
+              href="#"
+              id="servicesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Apps</a></li>
+              <li><a class="dropdown-item" href="#">Cloud Solutions</a></li>
+              <li><a class="dropdown-item" href="#">IT Consulting</a></li>
+            </ul>
+          </div>
+        </div>
+
+         <!-- Toggle Button for Mobile -->
+         <button
+         class="navbar-toggler"
+         type="button"
+         id="customNavbarToggler"
+         aria-controls="navbarContent"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <!-- Collapsible Content -->
+       <div class="collapse navbar-collapse" id="navbarContent">
+         <div
+           class="d-flex flex-column flex-lg-row align-items-center align-items-lg-center w-100"
+         >
+           <!-- Search Form -->
+           <form class="d-flex w-100 me-lg-3 mb-3 mb-lg-0">
+             <div class="input-group custom-search w-100">
+               <span class="input-group-text"
+                 ><i class="fas fa-search"></i
+               ></span>
+               <input
+                 type="text"
+                 class="form-control"
+                 placeholder="Enter your search"
+               />
+             </div>
+           </form>
+
+           <!-- Nav Links -->
+           <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center">
+             <li class="nav-item">
+               <a class="nav-link fw-semibold" href="about.html">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link fw-semibold" href="products.html"
+                 >Products</a
+               >
+             </li>
+             <li class="nav-item">
+               <a class="nav-link fw-semibold" href="#">FAQ</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link fw-semibold" href="contact.html"
+                 >Contact<span style="color: #cf2a01">_</span>Us</a
+               >
+             </li>
+           </ul>
+         </div>
+       </div>
+
+      </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section id="hero" class="hero-pagesection">
+      <div class="hero2">
+        <div class="hero-pagecontents">
+          <div class="text-white mb-3 mb-lg-0">
+            <h1 class="fw-bold mb-4 text-uppercase">Our Services</h1>
+            <p class="hero-pagepara text-uppercase">
+              <a href="index.html">HOME</a> &nbsp; / &nbsp;
+              <span> <a href="service.html">Our Services</a> </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- service -->
+
+    <section id="service" class="latest-service-section expectsection-padding ">
+      <p class="text-center service-intro">
+        In today’s fast-paced digital world, a one-size-fits-all approach no
+        longer works. Custom IT solutions empower your business with tailored
+        software, seamless automation, and cutting-edge technology that drive
+        efficiency, scalability, and growth. Whether you need a robust web
+        platform, a secure cloud infrastructure, or AI-driven insights, our
+        expertise ensures solutions that align perfectly with your goals. Stay
+        ahead of the competition with IT solutions designed exclusively for your
+        success!
+      </p>
+
+      <!-- row1 -->
+
+      <div class="row gy-4 mt-5">
+        <!-- card1 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service1.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-start">
+                <b>IT Support</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >We offer a wide range of IT services in order to meet your
+                  customized requirements (IT products and services).</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card2 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service2.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>Rental Service</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Streamline your life with our effortless rental service,
+                  providing access to premium products without the long-term
+                  commitment</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service3.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>Digital Marketing</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Digital marketing is an essential part of many businesses
+                  marketing strategies, as it allows them to reach a larger
+                  audience</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+      </div>
+
+      <!-- row2 -->
+
+      <div class="row gy-4 mt-5">
+        <!-- card1 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service4.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-start">
+                <b>Telecom Solutions</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Optimize your work environment with our server solutions.
+                  Improve connectivity, data management, and performance.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card2 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service5.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>AMC</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >We provide a yearly contract for printer /photocopier
+                  maintenance and repairs to streamline client operations.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service6.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>Sales</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Discover our diverse printers and copiers for your business
+                  needs, ensuring high-quality performance and reliability.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+      </div>
+
+      <!-- row3 -->
+
+      <div class="row gy-4 mt-5">
+        <!-- card1 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service7.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-start">
+                <b>Network Solutions</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >We provide a multitude of products, all of which aims to run
+                  your business with ease and highest efficiency.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card2 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service8.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>Photocopying</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Whether you need a copier for a day or a long-term, our
+                  expert team is here to provide you with personalized service
+                  and support.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="col-md-6 col-lg-4">
+          <article class="card news-card h-100 border-0">
+            <img
+              src="images/service/service3.jpg"
+              class="card-img-top"
+              alt="Abstract technology background"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <b>CCTV</b>
+              </h5>
+              <p class="card-text mt-2">
+                <xl class="text-muted"
+                  >Enhance security with our state-of-the-art CCTV solutions,
+                  providing vigilant surveillance for peace of mind in every
+                  corner.</xl
+                >
+              </p>
+            </div>
+            <a href="#" class="read-more-underline text-start">Read More </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+
+    <section id="contactus" class="contactus-section mt-3">
+      <div class="contactus-2">
+        <div class="contactus-contents text-center text-white">
+          <h1 class="fw-bold mb-4">
+            Are You Looking Great Solution For Your Company?
+          </h1>
+          <div class="btn btn-outline-light">Let’s Talk With Us</div>
+        </div>
+
+        <!-- Contact title at the bottom -->
+        <h2 class="contact-title text-uppercase">Contact Us</h2>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="contact" class="footer w-full">
+      <div class="news-padding">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <a href="index.html"><img
+              src="images/logo/logo2.png"
+              alt="IT Solutions Company Footer Logo"
+              height="70"
+              class="mb-3"
+            /></a> 
+            <p class="footer-text">
+              Al Katef IT Solutions is a global IT solutions <br />
+              company based UAE, with over 20 years experience in IT service,
+              printer service, digital marketing.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="#news">Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Our Services</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">IT Consulting</a></li>
+              <li><a href="#">Cloud Solutions</a></li>
+              <li><a href="#">Cybersecurity</a></li>
+              <li><a href="#">App Development</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Contact Us</h5>
+            <p><b>Al Katef IT Solutions</b></p>
+            <p class="mt-2">
+              <a
+                href="https://maps.app.goo.gl/4f17L8Gs5F6Vey9D8"
+                target="_blank"
+                style="text-decoration: none; color: inherit"
+              >
+                Musaffah - M25 - Abu Dhabi - United Arab Emirates
+              </a>
+            </p>
+            <ul class="list-unstyled footer-contact mt-4">
+              <li>
+                <i class="fas fa-phone me-2"></i
+                ><a href="tel:+971556449916"
+                  ><b class="text-dark">+971 55 644 9916</b></a
+                >
+              </li>
+              <li>
+                <i class="fas fa-envelope me-2 mt-2"></i
+                ><a href="mailto:sales@itsolutions4u.co"
+                  ><b class="text-dark">sales@itsolutions4u.co</b></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer-hr" />
+        <div class="row">
+          <div class="col-md-8">
+            <div class="social-icons mt-3">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+            <p class="copyright-text text-uppercase">
+              &copy; <span id="currentYear"></span> All Rights Reserved Al Katef
+              IT Solutions
+              <a href="#" class="text-white">Al Katef IT Solutions</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- navbar toggler -->
+
+    <script src="js/navbar-toggler.js"></script>
+
+    <!-- js  -->
+    <script src="js/script.js"></script>
+
+    <!-- navbar service dropdown toggler -->
+    <script src="js/drodown-toggler.js"></script>
+
+  </body>
+</html>
