@@ -34,136 +34,131 @@
   <body
     class="bg-gray-100 min-h-screen flex flex-col items-center justify-start"
   >
+    <!-- top section -->
 
-   <!-- top section -->
+    <div class="pagesection-top">
+      <!-- navbar -->
 
-   <div class="pagesection-top">
-
-    <!-- navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-page">
-      <div class="container-fluid">
-        <!-- Logo + Services -->
-        <div class="d-flex align-items-center me-3">
-          <a
-            class="navbar-brand d-flex align-items-center me-3"
-            href="index.html"
-          >
-            <img
-              src="images/logo/logo_1.png"
-              alt="IT Solutions Logo"
-              class="rounded"
-              height="40"
-            />
-          </a>
-
-          <!-- Services Dropdown -->
-          <div class="nav-item dropdown me-3">
+      <nav class="navbar navbar-expand-lg navbar-page">
+        <div class="container-fluid">
+          <!-- Logo + Services -->
+          <div class="d-flex align-items-center me-3">
             <a
-              class="btn dropdown-toggle text-white px-3 py-2 rounded"
-              href="#"
-              id="servicesDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
+              class="navbar-brand d-flex align-items-center me-3"
+              href="index.html"
             >
-              Services
+              <img
+                src="images/logo/logo_1.png"
+                alt="IT Solutions Logo"
+                class="rounded"
+                height="40"
+              />
             </a>
-            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-              <li><a class="dropdown-item" href="#">Web Development</a></li>
-              <li><a class="dropdown-item" href="#">Mobile Apps</a></li>
-              <li><a class="dropdown-item" href="#">Cloud Solutions</a></li>
-              <li><a class="dropdown-item" href="#">IT Consulting</a></li>
-            </ul>
+
+            <!-- Services Dropdown -->
+            <div class="nav-item dropdown me-3">
+              <a
+                class="btn dropdown-toggle text-white px-3 py-2 rounded"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="">IT Solutions</a></li>
+                <li><a class="dropdown-item" href="">Printer Services</a></li>
+                <li><a class="dropdown-item" href="">Security Solution</a></li>
+                <li><a class="dropdown-item read-moretext" href="service.html">Read More</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Toggle Button for Mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            id="customNavbarToggler"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible Content -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <div
+              class="d-flex flex-column flex-lg-row align-items-center align-items-lg-center w-100"
+            >
+              <!-- Search Form -->
+              <form class="d-flex w-100 me-lg-3 mb-3 mb-lg-0">
+                <div class="input-group custom-search w-100">
+                  <span class="input-group-text"
+                    ><i class="fas fa-search"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your search"
+                  />
+                </div>
+              </form>
+
+              <!-- Nav Links -->
+              <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="products.html"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="contact.html"
+                    >Contact<span style="color: #cf2a01">_</span>Us</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+      </nav>
 
-         <!-- Toggle Button for Mobile -->
-         <button
-         class="navbar-toggler"
-         type="button"
-         id="customNavbarToggler"
-         aria-controls="navbarContent"
-         aria-expanded="false"
-         aria-label="Toggle navigation"
-       >
-         <span class="navbar-toggler-icon"></span>
-       </button>
+      <!-- hero -->
 
-       <!-- Collapsible Content -->
-       <div class="collapse navbar-collapse" id="navbarContent">
-         <div
-           class="d-flex flex-column flex-lg-row align-items-center align-items-lg-center w-100"
-         >
-           <!-- Search Form -->
-           <form class="d-flex w-100 me-lg-3 mb-3 mb-lg-0">
-             <div class="input-group custom-search w-100">
-               <span class="input-group-text"
-                 ><i class="fas fa-search"></i
-               ></span>
-               <input
-                 type="text"
-                 class="form-control"
-                 placeholder="Enter your search"
-               />
-             </div>
-           </form>
-
-           <!-- Nav Links -->
-           <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center">
-             <li class="nav-item">
-               <a class="nav-link fw-semibold" href="about.html">About</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link fw-semibold" href="products.html"
-                 >Products</a
-               >
-             </li>
-             <li class="nav-item">
-               <a class="nav-link fw-semibold" href="#">FAQ</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link fw-semibold" href="contact.html"
-                 >Contact<span style="color: #cf2a01">_</span>Us</a
-               >
-             </li>
-           </ul>
-         </div>
-       </div>
-
-      </div>
-    </nav>
-
-    <!-- hero -->
-
-    <section id="hero" class="hero-pagesection">
-      <div class="hero2">
-        <div class="hero-pagecontents">
-          <div class="text-white mb-3 mb-lg-0">
-            <h1 class="fw-bold mb-4 text-uppercase">Our Services</h1>
-            <p class="hero-pagepara text-uppercase">
-              <a href="index.html">HOME</a> &nbsp; / &nbsp;
-              <span> <a href="service.html">Our Services</a> </span>
-            </p>
+      <section id="hero" class="hero-pagesection">
+        <div class="hero2">
+          <div class="hero-pagecontents">
+            <div class="text-white mb-3 mb-lg-0">
+              <h1 class="fw-bold mb-4 text-uppercase">Our Services</h1>
+              <p class="hero-pagepara text-uppercase">
+                <a href="index.html">HOME</a> &nbsp; / &nbsp;
+                <span> <a href="service.html">Our Services</a> </span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
+      </section>
     </div>
 
     <!-- service -->
 
-    <section id="service" class="latest-service-section expectsection-padding ">
+    <section id="service" class="latest-service-section expectsection-padding">
       <p class="text-center service-intro">
-        In today’s fast-paced digital world, a one-size-fits-all approach no
-        longer works. Custom IT solutions empower your business with tailored
-        software, seamless automation, and cutting-edge technology that drive
-        efficiency, scalability, and growth. Whether you need a robust web
-        platform, a secure cloud infrastructure, or AI-driven insights, our
-        expertise ensures solutions that align perfectly with your goals. Stay
-        ahead of the competition with IT solutions designed exclusively for your
-        success!
+        Empower your business with reliable printer services, expert IT support,
+        and strategic digital marketing. We offer printer rentals, maintenance,
+        and complete office printing solutions. Our IT services ensure seamless
+        operations, security, and scalability for your business. Boost your
+        online presence with targeted SEO, social media, and performance-driven
+        campaigns. All-in-one tech and marketing solutions tailored to grow your
+        business.
       </p>
 
       <!-- row1 -->
@@ -180,12 +175,16 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-start">
-                <b>IT Support</b>
+                <b>IT Services</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >We offer a wide range of IT services in order to meet your
-                  customized requirements (IT products and services).</xl
+                  >Stay ahead with reliable and scalable IT solutions tailored
+                  to your business.We offer complete IT support, infrastructure
+                  setup, and hardware solutions.From troubleshooting to network
+                  security, we’ve got you covered.Boost productivity with fast
+                  response and expert maintenance. <br />
+                  Your trusted partner for all IT services in the UAE.</xl
                 >
               </p>
             </div>
@@ -204,13 +203,16 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">
-                <b>Rental Service</b>
+                <b>Printer Rental Services</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Streamline your life with our effortless rental service,
-                  providing access to premium products without the long-term
-                  commitment</xl
+                  >Affordable printer rental services for all business sizes.Get
+                  access to top-brand printers with toner, parts, and full
+                  maintenance included.Flexible monthly plans with no long-term
+                  commitment. <br />
+                  Perfect for offices, events, or short-term projects.Reliable,
+                  cost-effective, and completely managed printing solutions.</xl
                 >
               </p>
             </div>
@@ -233,9 +235,13 @@
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Digital marketing is an essential part of many businesses
-                  marketing strategies, as it allows them to reach a larger
-                  audience</xl
+                  >Grow your business online with result-driven digital
+                  marketing.We offer SEO, social media management, paid ads, and
+                  content strategy.Reach your ideal audience and increase online
+                  visibility. <br />
+                  Boost website traffic and generate quality leads with
+                  ease.Let’s turn your clicks into customers and build your
+                  digital presence.</xl
                 >
               </p>
             </div>
@@ -258,12 +264,15 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-start">
-                <b>Telecom Solutions</b>
+                <b>Biometric Solutions</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Optimize your work environment with our server solutions.
-                  Improve connectivity, data management, and performance.</xl
+                  >Protect your business with our cutting-edge biometric
+                  security systems. From fingerprint scanners to facial
+                  recognition devices, we offer customized access control
+                  solutions that enhance safety, monitor attendance, and prevent
+                  unauthorized entry.</xl
                 >
               </p>
             </div>
@@ -282,12 +291,15 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">
-                <b>AMC</b>
+                <b>AMC – Printer & IT Solutions</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >We provide a yearly contract for printer /photocopier
-                  maintenance and repairs to streamline client operations.</xl
+                  >Maximize your productivity with our Annual Maintenance
+                  Contracts for printers, copiers, and IT systems. We offer
+                  preventive maintenance, emergency support, and regular system
+                  checkups to ensure seamless operations and reduce
+                  downtime.</xl
                 >
               </p>
             </div>
@@ -310,8 +322,12 @@
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Discover our diverse printers and copiers for your business
-                  needs, ensuring high-quality performance and reliability.</xl
+                  >Discover a wide range of branded printers, copiers, and IT
+                  equipment tailored to your business needs. <br />
+                  We supply the latest models from leading brands, ensuring
+                  performance, efficiency, and durability. <br />
+                  All products come with flexible purchase plans and onsite
+                  installation options for a hassle-free experience.</xl
                 >
               </p>
             </div>
@@ -334,12 +350,15 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-start">
-                <b>Network Solutions</b>
+                <b>Network & Software Solutions</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >We provide a multitude of products, all of which aims to run
-                  your business with ease and highest efficiency.</xl
+                  >Optimize your business with reliable network and software
+                  solutions.We handle structured cabling and custom software
+                  development.Secure and scalable systems built for long-term
+                  performance.Perfect for growing businesses needing IT
+                  efficiency and support.</xl
                 >
               </p>
             </div>
@@ -358,13 +377,15 @@
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">
-                <b>Photocopying</b>
+                <b>Web Development</b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Whether you need a copier for a day or a long-term, our
-                  expert team is here to provide you with personalized service
-                  and support.</xl
+                  >Boost your online presence with our responsive, SEO-friendly
+                  websites.We create custom web solutions for businesses,
+                  e-commerce, and startups.Mobile-optimized, fast, and secure
+                  with CMS integration. <br />
+                  End-to-end development with ongoing support and updates.</xl
                 >
               </p>
             </div>
@@ -377,19 +398,22 @@
         <div class="col-md-6 col-lg-4">
           <article class="card news-card h-100 border-0">
             <img
-              src="images/service/service3.jpg"
+              src="images/service/service9.jpg"
               class="card-img-top"
               alt="Abstract technology background"
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">
-                <b>CCTV</b>
+                <b>CCTV with MCC </b>
               </h5>
               <p class="card-text mt-2">
                 <xl class="text-muted"
-                  >Enhance security with our state-of-the-art CCTV solutions,
-                  providing vigilant surveillance for peace of mind in every
-                  corner.</xl
+                  >Protect your premises with smart CCTV systems and 24/7
+                  monitoring.Real-time surveillance with IP cameras, DVR/NVR,
+                  and mobile access. We provide government-approved,
+                  MCC-certified surveillance solutions for compliance and
+                  safety.Ideal for commercial, industrial, and residential
+                  security.</xl
                 >
               </p>
             </div>
@@ -421,16 +445,17 @@
       <div class="news-padding">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6">
-            <a href="index.html"><img
-              src="images/logo/logo2.png"
-              alt="IT Solutions Company Footer Logo"
-              height="70"
-              class="mb-3"
-            /></a> 
+            <a href="index.html"
+              ><img
+                src="images/logo/logo2.png"
+                alt="IT Solutions Company Footer Logo"
+                height="70"
+                class="mb-3"
+            /></a>
             <p class="footer-text">
-              Al Katef IT Solutions is a global IT solutions <br />
-              company based UAE, with over 20 years experience in IT service,
-              printer service, digital marketing.
+              Al Katef IT Solutions is a global technology partner based in the
+              UAE, offering over 23 years of excellence in IT services, printer
+              management, and digital marketing tailored to client success
             </p>
           </div>
           <div class="col-lg-2 col-md-6">
@@ -448,9 +473,9 @@
             <ul class="list-unstyled footer-links">
               <li><a href="#">Web Development</a></li>
               <li><a href="#">IT Consulting</a></li>
-              <li><a href="#">Cloud Solutions</a></li>
+              <li><a href="#">Network Solutions</a></li>
               <li><a href="#">Cybersecurity</a></li>
-              <li><a href="#">App Development</a></li>
+              <li><a href="#">Printer Services</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -471,11 +496,15 @@
                 ><a href="tel:+971556449916"
                   ><b class="text-dark">+971 55 644 9916</b></a
                 >
+                <b> , </b>
+                <a href="tel:+97125524336"
+                  ><b class="text-dark">+971 25 524 336</b></a
+                >
               </li>
               <li>
                 <i class="fas fa-envelope me-2 mt-2"></i
-                ><a href="mailto:sales@itsolutions4u.co"
-                  ><b class="text-dark">sales@itsolutions4u.co</b></a
+                ><a href="mailto:sales@alkatefitsolutions.ae"
+                  ><b class="text-dark">sales@alkatefitsolutions.ae</b></a
                 >
               </li>
             </ul>
@@ -531,6 +560,5 @@
 
     <!-- navbar service dropdown toggler -->
     <script src="js/drodown-toggler.js"></script>
-
   </body>
 </html>

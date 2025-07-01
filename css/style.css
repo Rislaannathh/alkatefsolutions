@@ -204,8 +204,11 @@ h6 {
   font-weight: 600;
 }
 
+.hero-section .hero-lsection1{
+  padding-left: 100px;
+}
 .hero-section h1 {
-  font-size: 3.9rem;
+  font-size: 3.4rem;
   font-weight: 700;
   line-height: 1.2;
   color: white;
@@ -224,7 +227,7 @@ h6 {
 }
 
 .hero-section img {
-  max-width: 99%;
+  max-width: 95%;
   border-radius: 12px;
   padding-bottom: 0;
   transition: transform 0.1s ease-out;
@@ -302,11 +305,11 @@ h6 {
   padding: 100px 150px 100px 150px;
 } */
 .expectations-section .stats {
-  margin-top: 1px;
+  /* margin-top: 1px; */
 }
 
 .expectations-section .stats .stat-item {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-align: center;
 }
 
@@ -318,7 +321,7 @@ h6 {
 }
 
 .expectations-section .stats h3 {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   /* Responsive font size */
   font-weight: 700;
   color: #e9513a;
@@ -727,11 +730,20 @@ h6 {
 .how-we-workpadding img {
   max-height: 800px;
 }
-.how-we-work-section .section-title {
+/* .how-we-work-section .section-title {
   font-size: 3rem;
-}
+} */
 .how-we-work-section .service-row {
   margin-top: 30px;
+}
+
+.navbar .dropdown-menu .read-moretext{
+  color: red;
+}
+
+.navbar .dropdown-menu .read-moretext:hover{
+  background-color: white;
+  color: #ee5353;
 }
 
 .section-title span {
@@ -1615,6 +1627,9 @@ textarea:-webkit-autofill {
     flex-direction: column;
   }
 
+  .hero-section .hero-lsection1{
+    padding-left: 0px;
+  }
   .hero-input,
   .hero-input-btn {
     max-width: 50%;
@@ -1844,7 +1859,7 @@ textarea:-webkit-autofill {
   }
 
   .hero-section h1 {
-    font-size: 2.2rem !important;
+    font-size: 2.3rem !important;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -1909,6 +1924,10 @@ textarea:-webkit-autofill {
   }
   .expectations-section .stats h3 {
     font-size: 2.5rem;
+  }
+
+  .expectations-section .stats p{
+    font-size: .7rem;
   }
 
   .expectations-section .about-content {
@@ -2457,6 +2476,10 @@ textarea:-webkit-autofill {
     font-size: 1rem;
   }
 
+  .hero-section .hero-lsection1{
+    padding-left: 46px;
+  }
+
   .hero-section .hero-input-btn {
     width: 100%;
     font-size: 1rem;
@@ -2653,6 +2676,10 @@ textarea:-webkit-autofill {
     width: 400px;
   }
 
+  .message-contents{
+    margin: 100px 0 39px;
+  }
+
   .footer .copyright-text {
     font-size: 0.68rem;
   }
@@ -2728,6 +2755,10 @@ textarea:-webkit-autofill {
     gap: 6px;
     white-space: nowrap;
     width: 63%;
+  }
+
+  .message-contents{
+    margin: 100px 0 39px;
   }
 
   .latest-product-section .btn-explore i {
