@@ -36,7 +36,7 @@
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-orange">
-      <div class="container-fluid">
+      <div class="nav-padding">
         <!-- Logo + Services -->
         <div class="d-flex align-items-center me-3">
           <a
@@ -46,12 +46,12 @@
             <img
               src="images/logo/logo_1.png"
               alt="IT Solutions Logo"
-              height="40"
+              height="54"
             />
           </a>
 
           <!-- Services Dropdown -->
-          <div class="nav-item dropdown me-3">
+          <!-- <div class="nav-item dropdown me-3">
             <a
               class="btn dropdown-toggle text-white px-3 py-2 rounded"
               href="#"
@@ -68,7 +68,7 @@
               <li><a class="dropdown-item" href="service.html">Security Solution</a></li>
               <li><a class="dropdown-item read-moretext" href="service.html">Read More</a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
         <!-- Toggle Button for Mobile -->
@@ -89,7 +89,7 @@
             class="d-flex flex-column flex-lg-row align-items-center align-items-lg-center w-100"
           >
             <!-- Search Form -->
-            <form class="d-flex w-100 me-lg-3 mb-3 mb-lg-0">
+            <!-- <form class="d-flex w-100 me-lg-3 mb-3 mb-lg-0">
               <div class="input-group custom-search w-100">
                 <span class="input-group-text"
                   ><i class="fas fa-search"></i
@@ -100,7 +100,7 @@
                   placeholder="Enter your search"
                 />
               </div>
-            </form>
+            </form> -->
 
             <!-- Nav Links -->
             <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-center">
@@ -112,12 +112,41 @@
                   >Products</a
                 >
               </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="#"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item" href="it-solution.html"
+                      >IT Solutions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="printer-service.html"
+                      >Printer Services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="digital-marketing.html"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                </ul>
+              </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="#">FAQ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="contact.html"
-                  >Contact<span style="color: #cf2a01">_</span>Us</a
+                  >Contact Us</a
                 >
               </li>
             </ul>
@@ -233,7 +262,23 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="col-md-12 image-box2">
+          
+          <div class="col-md-12  image-box3">
+            <div class="image-content">
+              <div class="col-md-6">
+                <h2>Digital Marketing</h2>
+                <p>
+                  Rank higher, reach further, and sell smarter with Abu Dhabi’s
+                  leading digital marketing agency. We deliver measurable growth
+                  through SEO, social media, and paid ad solutions tailored to
+                  your business.
+                </p>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-4 image-box2">
             <div class="image-content row">
               <div class="col-md-8">
                 <h2>Printer Rental Service</h2>
@@ -249,24 +294,240 @@
               <div class="col-md-6"></div>
             </div>
           </div>
-          <div class="col-md-12 mt-4 image-box3">
-            <div class="image-content">
-              <div class="col-md-6">
-                <h2>Digital Marketing</h2>
-                <p>
-                  Rank higher, reach further, and sell smarter with Abu Dhabi’s leading digital marketing agency. We deliver measurable growth through SEO, social media, and paid ad solutions tailored to your business.
-                </p>
-              </div>
-              <div class="col-md-6"></div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- news -->
 
-    <section id="news" class="latest-news-section">
+    <!-- service -->
+    <section id="services" class="how-we-work-section mt-5">
+      <div class="container-fluid">
+        <!-- Full width container -->
+        <div class="service-content row align-items-center">
+          <!-- Left Image Column -->
+          <div class="col-lg-5 text-center how-we-workpadding">
+            <img
+              src="images/service/service-bg.png"
+              class="img-fluid"
+              alt="Professional working on a laptop"
+              style="max-width: 100%; height: auto"
+            />
+          </div>
+
+          <!-- Right Content Column -->
+          <div class="col-lg-7">
+            <p class="section-subtitle text-start text-md-center text-lg-start">
+              HOW WE WORK
+            </p>
+            <h2
+              class="section-title text-start text-md-center text-lg-start mb-4 text-uppercase"
+            >
+              <b>
+                Efficiency isn’t a luxury—it’s the
+                <span> foundation of growth</span>
+              </b>
+            </h2>
+            <p
+              class="section-description text-start text-md-center text-lg-start"
+            >
+              Invest in smart tech, and success will follow
+            </p>
+
+            <div class="row mt-5">
+              <!-- Item 1 -->
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
+                >
+                  <div class="flex-shrink-0 icon-bg mb-3">
+                    <img
+                      src="images/service/service-icon1.png"
+                      alt="Best in industry icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-md-3">
+                    <h5 class="item-heading text-uppercase">
+                      Industry Leaders
+                    </h5>
+                    <p class="item-description mt-3">
+                      We bring deep expertise and fresh thinking to deliver
+                      beyond expectations—every time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
+                >
+                  <div class="flex-shrink-0 icon-bg mb-3">
+                    <img
+                      src="images/service/service-icon2.png"
+                      alt="Professional staff icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-md-3">
+                    <h5 class="item-heading text-uppercase">
+                      PROFESSIONAL STAFF
+                    </h5>
+                    <p class="item-description mt-3">
+                      Our pros are not just skilled—they’re passionate, precise,
+                      and client-obsessed.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
+                >
+                  <div class="flex-shrink-0 icon-bg mb-3">
+                    <img
+                      src="images/service/service-icon3.png"
+                      alt="Reliable and trustable icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-md-3">
+                    <h5 class="item-heading text-uppercase">
+                      Trusted & Proven
+                    </h5>
+                    <p class="item-description mt-3">
+                      Clients count on us because we care. We deliver, we
+                      support, we don’t disappear
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="col-md-6">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-5 process-item"
+                >
+                  <div class="flex-shrink-0 icon-bg mb-3">
+                    <img
+                      src="images/service/service-icon4.png"
+                      alt="Award winning icon"
+                    />
+                  </div>
+                  <div class="flex-grow-1 ms-md-3">
+                    <h5 class="item-heading text-uppercase">
+                      Award-Winning Excellence
+                    </h5>
+                    <p class="item-description mt-3">
+                      From SHARP’s Gold Partner to top sales and service honors.
+                      Best Seller Mono For The Year Award at the NSOA Channel
+                      Meet from SHARP, Best Award from Al Hayat Printing Press
+                      LLC
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- /.row -->
+          </div>
+          <!-- /.col-lg-7 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+
+    <!-- cta -->
+
+    <section
+      id="cta-section"
+      class="cta-section text-center ctasection-padding w-full"
+    >
+      <div class="content-section mt-5">
+        <p
+          class="text-uppercase section-subtitle mb-2 sub-heading-light text-center"
+        >
+          WE ARE HERE FOR YOU
+        </p>
+        <h2 class="cta-title text-uppercase">
+          <b
+            >We Drive Business Growth <br />
+            Through Technology</b
+          >
+        </h2>
+        <p class="cta-description mt-4">
+          Whether you need IT solutions, digital presence, or device rentals—Our
+          expert-driven <br />
+          services are designed for performance. Backed by data, powered by
+          experience, focused on <br />
+          results. Partner with us for smarter business operations.
+        </p>
+      </div>
+      <div class="row cta-card mt-2 justify-content-center gy-4">
+        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
+          <img
+            src="images/cta/cta1.png"
+            class="img-fluid mb-4"
+            alt="Expert consultation icon"
+          />
+          <div class="cta-card-contents">
+            <p class="text-uppercase mb-2 sub-heading-light">It Services</p>
+            <h5>Expert Tech Support</h5>
+            <p class="card-description mt-3">
+              Reliable <b>IT solutions</b> in UAE tailored to your business. We
+              manage networks, security, and system support. <br />
+              Minimize downtime with expert setup and monitoring. Focus on
+              growth—leave the tech to us.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
+          <img
+            src="images/cta/cta2.png"
+            class="img-fluid mb-4"
+            alt="Mobile application development icon"
+          />
+
+          <div class="cta-card-contents">
+            <p class="text-uppercase mb-2 sub-heading-light">
+              Digital Marketing
+            </p>
+            <h5>Grow Your Business Online</h5>
+            <p class="card-description mt-3">
+              Boost visibility with SEO, ads, and social media. Reach the right
+              audience with data-driven strategies. <br />
+              Custom campaigns that deliver real results. Let your brand thrive
+              online.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
+          <img
+            src="images/cta/cta3.png"
+            class="img-fluid mb-4"
+            alt="Dedicated support icon"
+          />
+
+          <div class="cta-card-contents">
+            <p class="text-uppercase mb-2 sub-heading-light">Rental Services</p>
+            <h5>Flexible Tech Rentals</h5>
+            <p class="card-description mt-3">
+              Rent heavy-duty printers and laptops on demand. Affordable plans
+              with delivery and support included. Perfect for commercial
+              offices, construction sites, business & typing centers, events, or
+              short-term use. If you're looking for a reliable
+              <b>rental printer in Abu Dhabi </b>, we've got you covered.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#contact" class="btn btn-light mt-5 custom-btn-light-cta">Get a Free Quote</a> -->
+    </section>
+
+     <!-- news -->
+
+     <section id="news" class="latest-news-section">
       <div class="news-padding">
         <div class="row">
           <div class="col-md-6">
@@ -608,237 +869,11 @@
       </div>
     </section>
 
-    <!-- service -->
-    <section id="services" class="how-we-work-section mt-5">
-      <div class="container-fluid">
-        <!-- Full width container -->
-        <div class="service-content row align-items-center">
-          <!-- Left Image Column -->
-          <div class="col-lg-5 text-center how-we-workpadding">
-            <img
-              src="images/service/service-bg.png"
-              class="img-fluid"
-              alt="Professional working on a laptop"
-              style="max-width: 100%; height: auto"
-            />
-          </div>
-
-          <!-- Right Content Column -->
-          <div class="col-lg-7">
-            <p class="section-subtitle text-start text-md-center text-lg-start">
-              HOW WE WORK
-            </p>
-            <h2
-              class="section-title text-start text-md-center text-lg-start mb-4 text-uppercase"
-            >
-              <b>
-                Efficiency isn’t a luxury—it’s the
-                <span> foundation of growth</span>
-              </b>
-            </h2>
-            <p
-              class="section-description text-start text-md-center text-lg-start"
-            >
-              Invest in smart tech, and success will follow
-            </p>
-
-            <div class="row mt-5">
-              <!-- Item 1 -->
-              <div class="col-md-6">
-                <div
-                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
-                >
-                  <div class="flex-shrink-0 icon-bg mb-3">
-                    <img
-                      src="images/service/service-icon1.png"
-                      alt="Best in industry icon"
-                    />
-                  </div>
-                  <div class="flex-grow-1 ms-md-3">
-                    <h5 class="item-heading text-uppercase">
-                      Industry Leaders
-                    </h5>
-                    <p class="item-description mt-3">
-                      We bring deep expertise and fresh thinking to deliver
-                      beyond expectations—every time.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="col-md-6">
-                <div
-                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
-                >
-                  <div class="flex-shrink-0 icon-bg mb-3">
-                    <img
-                      src="images/service/service-icon2.png"
-                      alt="Professional staff icon"
-                    />
-                  </div>
-                  <div class="flex-grow-1 ms-md-3">
-                    <h5 class="item-heading text-uppercase">
-                      PROFESSIONAL STAFF
-                    </h5>
-                    <p class="item-description mt-3">
-                      Our pros are not just skilled—they’re passionate, precise,
-                      and client-obsessed.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="col-md-6">
-                <div
-                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-4 process-item"
-                >
-                  <div class="flex-shrink-0 icon-bg mb-3">
-                    <img
-                      src="images/service/service-icon3.png"
-                      alt="Reliable and trustable icon"
-                    />
-                  </div>
-                  <div class="flex-grow-1 ms-md-3">
-                    <h5 class="item-heading text-uppercase">
-                      Trusted & Proven
-                    </h5>
-                    <p class="item-description mt-3">
-                      Clients count on us because we care. We deliver, we
-                      support, we don’t disappear
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Item 4 -->
-              <div class="col-md-6">
-                <div
-                  class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start mb-5 process-item"
-                >
-                  <div class="flex-shrink-0 icon-bg mb-3">
-                    <img
-                      src="images/service/service-icon4.png"
-                      alt="Award winning icon"
-                    />
-                  </div>
-                  <div class="flex-grow-1 ms-md-3">
-                    <h5 class="item-heading text-uppercase">
-                      Award-Winning Excellence
-                    </h5>
-                    <p class="item-description mt-3">
-                      From SHARP’s Gold Partner to top sales and service honors.
-                      Best Seller Mono For The Year Award at the NSOA Channel
-                      Meet from SHARP, Best Award from Al Hayat Printing Press
-                      LLC
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- /.row -->
-          </div>
-          <!-- /.col-lg-7 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container-fluid -->
-    </section>
-
-    <!-- cta -->
-
-    <section
-      id="cta-section"
-      class="cta-section text-center ctasection-padding w-full"
-    >
-      <div class="content-section mt-5">
-        <p
-          class="text-uppercase section-subtitle mb-2 sub-heading-light text-center"
-        >
-          WE ARE HERE FOR YOU
-        </p>
-        <h2 class="cta-title text-uppercase">
-          <b
-            >We Drive Business Growth <br />
-            Through Technology</b
-          >
-        </h2>
-        <p class="cta-description mt-4">
-          Whether you need IT solutions, digital presence, or device rentals—Our
-          expert-driven <br />
-          services are designed for performance. Backed by data, powered by
-          experience, focused on <br />
-          results. Partner with us for smarter business operations.
-        </p>
-      </div>
-      <div class="row cta-card mt-2 justify-content-center gy-4">
-        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
-          <img
-            src="images/cta/cta1.png"
-            class="img-fluid mb-4"
-            alt="Expert consultation icon"
-          />
-          <div class="cta-card-contents">
-            <p class="text-uppercase mb-2 sub-heading-light">It Services</p>
-            <h5>Expert Tech Support</h5>
-            <p class="card-description mt-3">
-              Reliable <b>IT solutions</b> in UAE tailored to your business. We
-              manage networks, security, and system support. <br />
-              Minimize downtime with expert setup and monitoring. Focus on
-              growth—leave the tech to us.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
-          <img
-            src="images/cta/cta2.png"
-            class="img-fluid mb-4"
-            alt="Mobile application development icon"
-          />
-
-          <div class="cta-card-contents">
-            <p class="text-uppercase mb-2 sub-heading-light">
-              Digital Marketing
-            </p>
-            <h5>Grow Your Business Online</h5>
-            <p class="card-description mt-3">
-              Boost visibility with SEO, ads, and social media. Reach the right
-              audience with data-driven strategies. <br />
-              Custom campaigns that deliver real results. Let your brand thrive
-              online.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-start cta-item">
-          <img
-            src="images/cta/cta3.png"
-            class="img-fluid mb-4"
-            alt="Dedicated support icon"
-          />
-
-          <div class="cta-card-contents">
-            <p class="text-uppercase mb-2 sub-heading-light">Rental Services</p>
-            <h5>Flexible Tech Rentals</h5>
-            <p class="card-description mt-3">
-              Rent heavy-duty printers and laptops on demand. Affordable plans
-              with delivery and support included. Perfect for commercial
-              offices, construction sites, business & typing centers, events, or
-              short-term use. If you're looking for a reliable
-              <b>rental printer in Abu Dhabi </b>, we've got you covered.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- <a href="#contact" class="btn btn-light mt-5 custom-btn-light-cta">Get a Free Quote</a> -->
-    </section>
-
     <!-- testimonials -->
 
     <section
       id="testimonials"
-      class="testimonials-section expectsection-padding"
+      class="testimonials-section expectsection-padding mb-5"
     >
       <p class="section-subtitle text-center">CLIENTS TESTIMONIALS</p>
       <h2 class="section-title text-uppercase text-center">
@@ -972,7 +1007,7 @@
 
     <!-- offer -->
 
-    <section id="products" class="latest-offers-section offer-padding">
+    <!-- <section id="products" class="latest-offers-section offer-padding">
       <div class="row mb-1 offer-top">
         <div class="col-12 col-md-6">
           <p class="section-subtitle text-start text-md-start text-center">
@@ -993,11 +1028,11 @@
           </p>
         </div>
         <div class="col-12 col-md-6 text-end mt-md-5 mt-3">
-          <!-- prev arrow -->
+
           <button class="btn-arrow carousel-prev">
             <i class="fa-solid fa-arrow-left"></i>
           </button>
-          <!-- next arrow -->
+
           <button class="btn-arrow carousel-next">
             <i class="fa-solid fa-arrow-right"></i>
           </button>
@@ -1005,9 +1040,8 @@
       </div>
       <div class="custom-carousel-container">
         <div class="custom-carousel-track" id="carouselTrack">
-          <!-- Repeat card block -->
+         
 
-          <!-- card1 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1028,7 +1062,6 @@
             </div>
           </div>
 
-          <!-- card2 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1051,7 +1084,6 @@
             </div>
           </div>
 
-          <!-- card3 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1074,7 +1106,7 @@
             </div>
           </div>
 
-          <!-- card4 -->
+          
           <div class="custom-card">
             <div class="card offer-card">
               <img
@@ -1096,7 +1128,6 @@
             </div>
           </div>
 
-          <!-- card5 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1119,7 +1150,6 @@
             </div>
           </div>
 
-          <!-- card6 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1142,7 +1172,6 @@
             </div>
           </div>
 
-          <!-- card7 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1165,7 +1194,6 @@
             </div>
           </div>
 
-          <!-- card8 -->
 
           <div class="custom-card">
             <div class="card offer-card">
@@ -1189,7 +1217,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
 

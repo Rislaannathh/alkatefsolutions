@@ -71,7 +71,7 @@ h6 {
 }
 
 .news-padding {
-  padding: 0 180px;
+  padding: 50px 180px;
 }
 
 .page-hr {
@@ -90,8 +90,25 @@ h6 {
 /* Ensure the navbar takes full width */
 .navbar-orange {
   background: linear-gradient(to right, #eb9f8c, #c6482a);
+
+  width: 100%;
 }
 
+.nav-padding{
+  padding: 10px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
 /* page navbar */
 
 .navbar-page .nav-link,
@@ -118,14 +135,14 @@ h6 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-.dropdown-toggle {
+/* .dropdown-toggle {
   background-color: #c05437;
   border: none;
-}
+} */
 
-.dropdown-toggle:hover {
+/* .dropdown-toggle:hover {
   background-color: #f05328;
-}
+} */
 .navbar-orange .dropdown-item:hover {
   background-color: #f8f9fa;
   color: #000 !important;
@@ -582,6 +599,7 @@ h6 {
   box-sizing: border-box;
   padding: 0 0.75rem;
 }
+
 
 /* News cards styling */
 .news-card {
@@ -1815,6 +1833,14 @@ textarea:-webkit-autofill {
     padding: 60px 20px 25px;
   }
 
+  .nav-padding {
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
   .offer-padding{
     padding: 0 10px 19px;
 
@@ -1850,9 +1876,13 @@ textarea:-webkit-autofill {
     display: none;
   }
 
-  .navbar .dropdown-toggle {
-    display: none;
+  .navbar-nav{
+    gap: 3px;
   }
+
+  /* .navbar .dropdown-toggle {
+    display: none;
+  } */
 
   .hero-section {
     padding-bottom: 45px;
